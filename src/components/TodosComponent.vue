@@ -5,7 +5,6 @@
             {{todo.title}}
         </div>
     </div>
-    
 </template>
 
 <script>

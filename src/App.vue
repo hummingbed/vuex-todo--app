@@ -1,20 +1,19 @@
 <template>
-  
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <AddTodoComponent />
   <TodosComponent />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-import TodosComponent from './components/TodosComponent.vue'
+import TodosComponent from "./components/TodosComponent.vue";
+import AddTodoComponent from "./components/AddTodoComponent.vue";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    HelloWorld,
-    TodosComponent
-  }
-}
+    TodosComponent,
+    AddTodoComponent,
+  },
+};
 </script>
 
 <style>
